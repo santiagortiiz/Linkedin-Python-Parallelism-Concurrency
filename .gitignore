@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+
+# Secrets
+.env
+
+# Cache
+*.pyc
+
+# Tests
+*.coverage
+
+# Docker
+.dockerignore
+.tests.dockerfile
