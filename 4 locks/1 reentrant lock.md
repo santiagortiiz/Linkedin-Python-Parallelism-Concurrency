@@ -5,7 +5,7 @@
 
 # Reentrant mutex/lock
 - There may be time when a program need to lock a mutex multiple times
-  before unlocking it, in that case you should use a reentrar mutex to
+  before unlocking it, in that case you should use a reentrant mutex to
   prevent deadlocks
 - Type of mutex that can be locked multiple times by the same process or thread
 - Internally, it keeps track of how many time it's been locked by the owning thread
