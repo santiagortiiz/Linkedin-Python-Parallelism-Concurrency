@@ -7,7 +7,7 @@ classification criteria: data streams and instructions streams (concurrent instr
 - MISD: Multiple Instruction Single Data
 - MIMD: Multiple Instruction Multiple Data
 
-# PArallel Programming Model
+# Parallel Programming Model
 - SPMD: Single Program, Multiple Data
     The same program (not neccessarily the same instruction)
     is running in multiple cores to process multiple data

@@ -9,7 +9,7 @@ pencil = threading.Lock()
 
 def shopper():
     global garlic_count
-    for i in range(5):
+    for i in range(500):
         # Thinking is not a step that must be protected from race conditions
         print(threading.current_thread().getName(), 'is thinking.')
         time.sleep(0.5)

@@ -8,7 +8,7 @@ Memory speed < Processor speed
 - categories based on how processors are connected
   to memory and how quickly they can access it:
   - UMA: Uniform memory access
-  - NUMA. Non-uniform memory access
+  - NUMA: Non-uniform memory access
 
 ## UMA: Uniform memory access
 - All processors are connected to the same memory and they can access equaly fast
