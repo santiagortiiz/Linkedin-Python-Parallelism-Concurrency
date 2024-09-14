@@ -1,6 +1,6 @@
 # Deadlock
 - All processes and threads are unable to continue executing
-- If a thread tries to lock a mutes that it's already locked,
+- If a thread tries to lock a mutex that it's already locked,
   it will enter into a waiting list for that mutex
 
 # Reentrant mutex/lock

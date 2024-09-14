@@ -2,7 +2,7 @@
 """ Several users reading a calendar, but only a few users updating it """
 
 import threading
-from readerwriterlock import rwlock
+from readerwriterlock.rwlock import RWLockFair
 
 WEEKDAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 today = 0
@@ -14,8 +14,9 @@ Methods:
     - get_rlock(): reader lock object that allows multiple threads to read at once
     - get_wlock(): writer lock object that only allows 1 thread to write at once
 '''
-marker = rwlock.RWLockFair()
+marker = RWLockFair()
 # marker = threading.Lock()
+
 
 def calendar_reader(id_number):
     global today
